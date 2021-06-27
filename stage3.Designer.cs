@@ -41,6 +41,7 @@ namespace LearnMyLanguage2
             this.Correct = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -144,9 +145,9 @@ namespace LearnMyLanguage2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gold;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.textBox4);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(32, 295);
+            this.panel2.Location = new System.Drawing.Point(32, 306);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(460, 44);
             this.panel2.TabIndex = 23;
@@ -157,9 +158,9 @@ namespace LearnMyLanguage2
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(0, 4);
+            this.textBox1.Location = new System.Drawing.Point(32, 267);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(453, 33);
+            this.textBox1.Size = new System.Drawing.Size(460, 33);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Name The Animal above In Isixhosa Language";
             // 
@@ -198,6 +199,18 @@ namespace LearnMyLanguage2
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox4.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(1, 4);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(455, 33);
+            this.textBox4.TabIndex = 12;
+            this.textBox4.Text = "By Fixing The Reshuffled Word: VUDNOLI";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
             // stage3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,6 +218,7 @@ namespace LearnMyLanguage2
             this.BackgroundImage = global::LearnMyLanguage2.Properties.Resources.back2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(564, 521);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox3);
@@ -241,5 +255,6 @@ namespace LearnMyLanguage2
         private System.Windows.Forms.CheckBox Correct;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }

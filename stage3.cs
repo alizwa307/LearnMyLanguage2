@@ -179,5 +179,10 @@ namespace LearnMyLanguage2
         {
             this.button5.BackColor = Color.Gold;
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
