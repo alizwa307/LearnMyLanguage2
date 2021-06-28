@@ -16,7 +16,7 @@ namespace LearnMyLanguage2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new stage1());
+            Application.Run(new Form3());
         }
     }
 }
